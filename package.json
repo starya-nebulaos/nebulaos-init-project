@@ -1,0 +1,25 @@
+{
+  "name": "my-nebulaos-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NebulaOS AI Agent Project",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nebulaos/client": "^0.1.0",
+    "@nebulaos/core": "^0.1.0",
+    "@nebulaos/llm-gateway": "^0.1.0",
+    "@nebulaos/types": "^0.1.0",
+    "dotenv": "^16.6.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
