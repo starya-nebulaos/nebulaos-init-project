@@ -10,10 +10,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@nebulaos/client": "^0.1.0",
-    "@nebulaos/core": "^0.1.0",
-    "@nebulaos/llm-gateway": "^0.1.0",
-    "@nebulaos/types": "^0.1.0",
+    "@nebulaos/client": "^0.1.10",
+    "@nebulaos/core": "^0.2.12",
+    "@nebulaos/llm-gateway": "^0.1.8",
+    "@nebulaos/types": "^0.1.5",
     "dotenv": "^16.6.1",
     "zod": "^3.25.0"
   },
